@@ -3,52 +3,87 @@
     <head>
         <meta charset="UTF-8">
         <title>Monic Rabelo</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     </head>
+
     <body>
-        <header>
-        <h1>Monic Rabelo</h1>
+        <header id="menu">
+            <h1 class="logo">Monic Rabelo</h1>
+            <nav class="navegacao">
+                <ul>
+                    <li>Sobre mim</li>
+                    <li>Formação</li>
+                    <li>Experiência</li>
+                    <li>Contato</li>
+                </ul>
+            </nav>
         </header>
 
         <main>
+            <section id="sobre">
+                <img class="sobre-imagem" src="img/unnamed.jpg" alt="foto minha bb" title="foto minha"/>
+                <h2 class="sobre-nome">Monic Rabelo</h2>
+                <h3 class="sobre-titulo">Estudante de Informática</h3>
 
-        <section>
-        <h2>Sobre mim</h2>
-        <img src="img/unnamed.jpg" alt="foto minha bb" title="foto minha"/>
-        <p>
-            Sou uma <strong>estudante </strong>da área de tecnologia, atualmente estudando front-end. 
-            Sou formada em <em>Técnico de Informática </em> e tenho um grande interesse na área de informática.
-        </p>
+                <p class="sobre-descricao">
+                    Sou uma <strong>estudante da área de tecnologia </strong>, atualmente estudando front-end. <br>
+                    Sou formada em Técnico de Informática e tenho um grande interesse na área de informática.
+                </p>
+            </section>
 
-        <p>
-            Minha frase favorita é: 
-            <cite>Não tenho frase favorita!</cite>
-        </p>
-        </section>
+            <section id="formacao">
+                <h2 class="formacao-titulo">Formação</h2>
 
-        <section>
-        <h2>O que mais gosto:</h2>
-        <ul>
-            <li>GATOS</li>
-            <li>GUARANA</li>
-        </ul>
-        </section>
+                <div class="formacao-lista">
+                    <h3>Curso Técnico de Informática</h3>
+                    <a href="https://www.cetam.am.gov.br/" target="_blank">CETAM</a>
+                    <p>Curso técnico de nível médio em informática. Ensinando programação, front-end, banco de dados
+                    e outros assuntos da área de informática.</p>
 
-        <section>
-            <h2>Entre em contato comigo</h2>
-                <form>
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo"/> <br> <br>
+                    <h3>Desevolvimento front-end</h3>
+                    <a href="https://minasprogramam.com/" target="_blank">Curso Minas Programam</a>
+                    <p>Curso introdutório de desenvolvimento front-end, ensinando conceitos básicos de HTML, CSS e JavaScript</p>
+                </div> 
+            </section>
 
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail"/> <br> <br>
+            <section id="experiencia">
+                <h2 class="experiencia-titulo">Experiências</h2>
 
-                    <label for="mensagem">Mensagem: </label>
-                    <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="20"></textarea> <br> <br>
+                <div class="experiencia-lista">
+                    <h3>Jovem Aprendiz Administrativo</h3>
+                    <a href="https://www.cetam.am.gov.br/" target="_blank">City Plastik</a>
+                    <p>Trabalhei como aprendiz na área administrativa.</p>
+                </div> 
+            </section>
 
-                    <button type="submit">Enviar</button>
-                </form> 
-        </section>
+
+            <section id="contato">
+                <h2 class="contato-titulo">Entre em contato comigo</h2>
+                    <form class="contato-formulario">
+                        <div class="contato-grupoinput">
+                            <div class="contato-input">
+                                <label for="nome">Nome:</label>
+                                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo"/>
+                            </div>
+                        
+                            <div class="contato-input">
+                                <label for="email">E-mail:</label>
+                                <input type="email" id="email" name="email" placeholder="Digite seu e-mail"/>
+                            </div>
+                        </div>
+
+                        <div class="contato-input">
+                            <label for="mensagem">Mensagem: </label>
+                            <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="20"></textarea>
+                        </div>   
+                        <button type="submit">Enviar</button>
+                    </form> 
+            </section>
         </main>
+
         <footer>
             <a href="https://www.youtube.com/" target="_blank">Link para o meu Linkedin: </a>
         </footer>
