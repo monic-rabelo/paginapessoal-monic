@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -14,10 +14,10 @@
             <h1 class="logo">Monic Rabelo</h1>
             <nav class="navegacao">
                 <ul>
-                    <li>Sobre mim</li>
-                    <li>Formação</li>
-                    <li>Experiência</li>
-                    <li>Contato</li>
+                    <li><a href="#sobre">Sobre mim</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
         </header>
@@ -56,6 +56,10 @@
                     <h3>Jovem Aprendiz Administrativo</h3>
                     <a href="https://www.cetam.am.gov.br/" target="_blank">City Plastik</a>
                     <p>Trabalhei como aprendiz na área administrativa.</p>
+
+                    <h3>Lorem ipsum dolor</h3>
+                    <a href="https://www.cetam.am.gov.br/" target="_blank">Lorem ipsum dolor</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam hendrerit, leo sed consectetur sollicitudin, nulla nibh venenatis sapien, vitae placerat justo leo in tortor.</p>
                 </div> 
             </section>
 
@@ -77,15 +81,22 @@
 
                         <div class="contato-input">
                             <label for="mensagem">Mensagem: </label>
-                            <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="20"></textarea>
+                            <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="10"></textarea>
                         </div>   
-                        <button type="submit">Enviar</button>
+                        <button class="btn-enviar" type="submit">Enviar</button>
                     </form> 
             </section>
         </main>
 
-        <footer>
-            <a href="https://www.youtube.com/" target="_blank">Link para o meu Linkedin: </a>
+        <footer class="rodape">
+            <div class="rodape-contatos">
+                <p><img src="img/icone-github.png" alt="logo do github"/> <a href="https://github.com/monic-rabelo" target="_blank">monic-rabelo</a></p>
+                <p><img src="img/icone-linkedin.png" alt="logo do linkedin"/> <a href="https://www.linkedin.com/in/monic-da-silva-rabelo-aa4a97300/?originalSubdomain=br" target="_blank">Monic da Silva Rabelo</a></p>
+            </div> 
+
+            <div class="rodape-logo">
+                <a href="https://minasprogramam.com/" target="_blank"><img class="logo-minas" src="img/icone-minas.png" alt="logo do minas programam"/> </a>
+            </div>
         </footer>
     </body>
 </html>
