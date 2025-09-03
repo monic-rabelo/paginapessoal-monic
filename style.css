@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "TASA Orbiter", sans-serif;
 }
 
 #menu {
@@ -36,20 +36,21 @@ body {
 
 #sobre {
     text-align: center;
-    background-color: #edeaed;
+    background-color: #edeaedb4;
     padding: 60px 20px;
 }
 
 .sobre-imagem {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%; /* borda redonda */
     object-fit: cover;
 }
 
 .sobre-nome {
     color: #938df8;
-    font-size: 26px;
+    font-size: 25px;
+    margin-top: 10px;
 }
 
 .sobre-titulo {
@@ -59,9 +60,10 @@ body {
 }
 
 .sobre-descricao {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
-    margin-top: 5px;
+    margin-top: 30px;
+    margin-bottom: -30px;
 }
 
 .logo {
@@ -92,6 +94,13 @@ body {
     margin-top: 30px;
 }
 
+.formacao-lista h4 {
+    font-size: 15px;
+    color: #49BFB3;
+    margin-top: -6px;
+    margin-bottom: 10px;
+}
+
 .formacao-lista a {
     color: #5894e9;
 }
@@ -100,9 +109,47 @@ body {
     margin-top: 10px;
 }
 
-#experiencia {
+#formacao-complementar {
     padding: 50px 150px;
     background-color: #EDEAEA;
+}
+
+.formacao-complementar-titulo {
+    color: #49BFB3;
+    font-size: 24px;
+}
+
+.formacao-complementar-lista {
+    width: 600px;
+    margin: 0 auto;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+.formacao-complementar-lista h3 {
+    font-size: 18px;
+    color: #828282;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.formacao-complementar-lista h4 {
+    font-size: 15px;
+    color: #49BFB3;
+    margin-top: -6px;
+    margin-bottom: 10px;
+}
+
+.formacao-complementar-lista a {
+    color: #5894e9;
+}
+
+.formacao-complementar-lista p {
+    margin-top: 10px;
+}
+
+#experiencia {
+    padding: 50px 150px;
 }
 
 .experiencia-titulo {
@@ -134,6 +181,7 @@ body {
 
 #contato {
     padding: 50px 150px;
+    background-color: #EDEAEA;
 }
 
 .contato-titulo {
@@ -189,6 +237,11 @@ body {
     font-weight: bold;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background-color: #bcbaee;
 }
 
 .rodape {
